@@ -27,7 +27,7 @@
             </div>
             @yield('toodle')
             <div class="member-featured">
-                <div class="title">The community today</div>
+                <div class="title">The community today.</div>
             </div>
             <div class="content-community">
                 <div class="title">Community Sponnsors</div>
@@ -37,7 +37,7 @@
             <div class="footer">
                 <div class="opensource">
                     <div class="icon" data-feather="heart"></div>
-                    We're open source and free forever.
+                    We're open source and free forever. Say hi on GitHub, Twitter or Right here!
                 </div>
             </div>
         </toodle>

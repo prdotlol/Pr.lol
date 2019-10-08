@@ -2,8 +2,10 @@
 
 namespace App\Policies;
 
+use Auth;
 use App\Post;
 use App\User;
+use Illuminate\Auth\Access\Response;
 use Illuminate\Auth\Access\HandlesAuthorization;
 
 class PostPolicy
@@ -39,9 +41,11 @@ class PostPolicy
      * @param  \App\User  $user
      * @return mixed
      */
-    public function create(User $user)
+    public function create()
     {
-        //
+        return Auth::check()
+        ? Response::allow()
+        : Response::deny('You are not logged in.');
     }
 
     /**

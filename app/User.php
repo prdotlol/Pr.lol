@@ -51,4 +51,9 @@ class User extends Authenticatable
         }
         return strtoupper(trim($initials));
     }
+
+    public function posts()
+    {
+        return $this->hasMany('App\Post');
+    }
 }

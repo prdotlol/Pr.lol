@@ -2,11 +2,17 @@
 
 namespace App\Http\Controllers;
 
+use Gate;
 use App\Post;
 use Illuminate\Http\Request;
 
 class PostController extends Controller
 {
+    public function __construct()
+    {
+        $this->authorizeResource(Post::class, 'post');
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -22,9 +28,9 @@ class PostController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(Request $request)
     {
-        //
+        return view('posts.create');
     }
 
     /**
@@ -67,9 +73,11 @@ class PostController extends Controller
      * @param  \App\Post  $post
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Post $post)
+    public function update(Request $request, User $user, Post $post)
     {
-        //
+        return $user->id === $post->user_id
+                ? Response::allow()
+                : Response::deny('You do not own this post.');
     }
 
     /**
