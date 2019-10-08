@@ -1,0 +1,76 @@
+.homepage{
+    margin-top: 20px;
+}
+
+.welcome-guest{
+    // background: #f3f3f3;
+    // padding: 30px;
+    // border-bottom: 1px dashed #999;
+    padding-bottom: 30px;
+
+    h1{
+        font-family: 'Bungee', cursive;
+        font-weight: 300;
+    }
+
+    .text-shadow{
+        color: #888;
+        font-size: 1.2em;
+        margin-bottom: 5px;
+    }
+
+    .signup{
+        display: flex;
+        vertical-align: middle;
+        align-items: center;
+
+        a{
+            display: flex;
+            vertical-align: middle;
+            align-items: center;
+            justify-content: center;
+            margin: 0 0 0 7px;
+            color: #fff;
+            border-radius: 90px;
+            font-weight: 500;
+            text-decoration: none;
+            line-height: 1;
+            font-size: 0.9em;
+            height: 38px;
+            width: 38px;
+
+            .icon{
+                height: 22px;
+                width: 22px;
+                fill: #fff;
+                stroke-width: 0px;
+            }
+
+            &.twitter{
+                background: #38A1F3;
+
+                &:hover{
+                    background: darken(#38A1F3, 10);
+                }
+            }
+
+            &.github{
+                background: #333333;
+
+                &:hover{
+                    background: darken(#333333, 10);
+                }
+            }
+        }
+    }
+
+    .button{
+        display: inline-block;
+        background: #000;
+        padding: 14px 24px;
+        border-radius: 90px;
+        color: #fff;
+        line-height: 1;
+        margin-top: 5px;
+    }
+}

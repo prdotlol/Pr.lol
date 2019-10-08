@@ -1,0 +1,104 @@
+nav {
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    height: 70px;
+    margin-top: 15px;
+    // border-bottom: 1px solid #e2e2e2;
+
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+        vertical-align: middle;
+        align-items: center;
+        width: $max-width;
+        margin: 0 auto;
+    }
+
+    .left{
+        display: flex;
+        vertical-align: middle;
+        align-items: center;
+    }
+
+    .logo {
+        display: flex;
+        vertical-align: middle;
+        align-items: center;
+        color: #000;
+        font-family: 'Bungee', cursive;
+        font-weight: 400;
+        font-size: 1.35em;
+        line-height: 0.95;
+        margin-right:  30px;
+
+        .img img{
+            height: 40px;
+            width: 40px;
+            margin-right: 6px;
+            margin-top:-4px;
+            fill: red;
+        }
+
+    }
+
+    .left-menu{
+        display: flex;
+        align-items: center;
+        vertical-align: middle;
+
+        li {
+            list-style: none;
+            margin-right: 20px;
+        }
+
+        a{
+            color: #000;
+            font-size: 1.1em;
+        }
+    }
+
+    .right{
+        display: flex;
+        vertical-align: middle;
+        align-items: center;
+        justify-content: flex-end;
+
+        .user{
+            display: flex;
+            vertical-align: middle;
+            align-items: center;
+            justify-content: flex-end;
+
+            .settings{
+                .icon{
+                    margin-right: 16px;
+                    color: #333;
+                    height: 22px;
+                    width: 22px;
+                    stroke-width: 2px;
+                }
+            }
+
+            .name{
+                font-weight: 500;
+                margin-right: 10px;
+            }
+
+            .avatar{
+                display: flex;
+                vertical-align: middle;
+                align-items: center;
+                justify-content: center;
+                height: 35px;
+                width: 35px;
+                background: $primary-color;
+                color: #fff;
+                font-weight: 700;
+                border-radius: 90px;
+                line-height: 1;
+                font-size: 1.1em;
+            }
+        }
+    }
+}

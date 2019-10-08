@@ -1,0 +1,19 @@
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import 'typography';
+
+
+// App
+#app {
+    display: flex;
+}
+
+// Parts
+@import 'nav';
+@import 'toodle';
+@import 'feed';
+@import 'home';
+@import 'profile';

@@ -1,0 +1,73 @@
+toodle {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 20px 0 0;
+    justify-content: flex-end;
+    vertical-align: text-top;
+    align-items: flex-start;
+    text-align: right;
+    width: 400px;
+    background: #f3f3f3;
+    min-height: 100vh;
+
+    .member-featured{
+        display: block;
+        width: 100%;
+
+        .title{
+            font-weight: 500;
+            margin-bottom: 5px;
+            color: #999;
+        }
+
+        .item{
+            background: #fff;
+            border-radius: 20px;
+            border: 1px solid #e2e2e2;
+        }
+    }
+
+
+    .content-community{
+        display: block;
+
+        .title{
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+
+        .item{
+            background: #fff;
+            border-radius: 20px;
+            border: 1px solid #e2e2e2;
+        }
+    }
+
+    .footer{
+        display: block;
+        align-self: flex-end;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0 0 20px 0;
+        text-align: right;
+
+        .opensource{
+            display: flex;
+            vertical-align: middle;
+            align-items: center;
+            justify-content: flex-end;
+            font-size: 0.9em;
+            line-height: 1.2;
+
+            .icon{
+                height: 18px;
+                width: 18px;
+                margin-right: 5px;
+                fill: $red;
+                stroke-width: 0px;
+            }
+        }
+    }
+
+}
