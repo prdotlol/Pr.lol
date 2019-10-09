@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Gate;
 use App\Post;
 use Illuminate\Http\Request;
+use App\Http\Requests\StorePost;
 
 class PostController extends Controller
 {
@@ -39,9 +40,11 @@ class PostController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(StorePost $request, User $user)
     {
-        //
+        $post = new Post(request);
+        $user->posts()->save($comment);
+
     }
 
     /**

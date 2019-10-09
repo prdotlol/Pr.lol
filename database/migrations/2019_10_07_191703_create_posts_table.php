@@ -16,10 +16,11 @@ class CreatePostsTable extends Migration
         Schema::create('posts', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->integer('user_id');
-            $table->integer('content_type_id');
+            $table->integer('post_type');
             $table->string('title');
             $table->string('slug')->unique();
             $table->longText('content');
+            $table->string('image');
             $table->boolean('page')->default(false);
             $table->boolean('official')->default(false);
             $table->timestamps();

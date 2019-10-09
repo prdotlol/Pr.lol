@@ -10,6 +10,7 @@ class Post extends Model
         'title',
         'slug',
         'content',
+        'image',
         'page' => false,
         'official' => false,
     ];
@@ -17,5 +18,10 @@ class Post extends Model
     public function user()
     {
         return $this->belongsTo('App\User');
+    }
+
+    public function type()
+    {
+        return $this->belongsTo('App\PostType', 'post_type', 'slug');
     }
 }
