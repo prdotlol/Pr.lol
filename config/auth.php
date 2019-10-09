@@ -18,6 +18,18 @@ return [
         'passwords' => 'users',
     ],
 
+    'reserved_usernames' => [
+        'admin',
+        'moderator',
+        'udara',
+        'official',
+        'u',
+        'uj',
+        'haishan',
+        'pr',
+        'lol',
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Authentication Guards

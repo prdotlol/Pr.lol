@@ -5,7 +5,36 @@
 .post-create{
     .title{
         font-family: 'Bungee', cursive;
-        margin-bottom: 20px;
-        font-size: 1.4em;
+        font-size: 2.6em;
+    }
+}
+
+.post-create-tips{
+    background: #f3f3f3;
+    padding: 30px;
+
+    .header{
+        display: flex;
+        vertical-align: middle;
+        align-items: center;
+        margin-bottom: 12px;
+
+        .icon{
+            margin-right: 5px;
+        }
+
+        .sidebar-title{
+            font-weight: 500;
+        }
+    }
+
+    ul{
+        padding: 0 0 0 20px;
+        margin: 0;
+
+        li{
+            padding: 0;
+            margin: 0;
+        }
     }
 }

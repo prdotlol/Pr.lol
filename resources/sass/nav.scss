@@ -70,19 +70,23 @@ nav {
             align-items: center;
             justify-content: flex-end;
 
-            .settings{
-                .icon{
-                    margin-right: 16px;
-                    color: #333;
-                    height: 22px;
-                    width: 22px;
-                    stroke-width: 2px;
+            .icon{
+                margin-right: 13px;
+                color: #333;
+                height: 22px;
+                width: 22px;
+                stroke-width: 2px;
+
+                &:hover{
+                    color: $blue;
+                    cursor: pointer;
                 }
             }
 
             .name{
                 font-weight: 500;
                 margin-right: 10px;
+                margin-left: 10px;
             }
 
             .avatar{

@@ -10644,6 +10644,13 @@ a.text-dark:focus {
   }
 }
 
+.btn {
+  box-shadow: inset 0 0 1px 0 #411701, 0 0 0 2px #ffe7db;
+  border-radius: 90px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 @font-face {
   font-family: "Clew-font";
   src: url("/fonts/visby/VisbyCF-Regular.woff") format("woff");
@@ -10851,17 +10858,23 @@ nav .right .user {
   justify-content: flex-end;
 }
 
-nav .right .user .settings .icon {
-  margin-right: 16px;
+nav .right .user .icon {
+  margin-right: 13px;
   color: #333;
   height: 22px;
   width: 22px;
   stroke-width: 2px;
 }
 
+nav .right .user .icon:hover {
+  color: #FD6111;
+  cursor: pointer;
+}
+
 nav .right .user .name {
   font-weight: 500;
   margin-right: 10px;
+  margin-left: 10px;
 }
 
 nav .right .user .avatar {
@@ -10939,8 +10952,7 @@ toodle .footer .opensource {
   vertical-align: middle;
   align-items: center;
   justify-content: flex-end;
-  font-size: 0.9em;
-  line-height: 1.2;
+  line-height: 1.4;
 }
 
 toodle .footer .opensource .icon {
@@ -11103,7 +11115,36 @@ toodle .footer .opensource .icon {
 
 .post-create .title {
   font-family: "Bungee", cursive;
-  margin-bottom: 20px;
-  font-size: 1.4em;
+  font-size: 2.6em;
+}
+
+.post-create-tips {
+  background: #f3f3f3;
+  padding: 30px;
+}
+
+.post-create-tips .header {
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.post-create-tips .header .icon {
+  margin-right: 5px;
+}
+
+.post-create-tips .header .sidebar-title {
+  font-weight: 500;
+}
+
+.post-create-tips ul {
+  padding: 0 0 0 20px;
+  margin: 0;
+}
+
+.post-create-tips ul li {
+  padding: 0;
+  margin: 0;
 }
 
