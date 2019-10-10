@@ -72,14 +72,14 @@ jobs:
     steps:
       - checkout
       - add_ssh_keys:
-        fingerprints:
-          - "ad:23:1f:5b:46:df:9d:07:c9:4f:83:65:c7:04:92:dc"
+          fingerprints:
+            - "ad:23:1f:5b:46:df:9d:07:c9:4f:83:65:c7:04:92:dc"
       - run:
-        name: Install Deployer
-        command: |
-          curl -LO https://deployer.org/deployer.phar
-          sudo mv deployer.phar /usr/local/bin/dep
-          sudo chmod +x /usr/local/bin/dep
+          name: Install Deployer
+          command: |
+            curl -LO https://deployer.org/deployer.phar
+            sudo mv deployer.phar /usr/local/bin/dep
+            sudo chmod +x /usr/local/bin/dep
       - run:
           name: Deploy
           command: |
