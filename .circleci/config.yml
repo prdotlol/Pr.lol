@@ -69,7 +69,7 @@ jobs:
       - checkout
       - add_ssh_keys:
           fingerprints:
-            - "2e:70:69:46:17:f8:1e:e7:85:d7:70:c9:78:3f:de:99"
+            - "SHA256:d61U14zGt/eQ4ogpNaA3AHmE1VBbV9WsNFHJ11mZ10I me@udara.io"
       - run:
           name: Install Deployer
           command: |
