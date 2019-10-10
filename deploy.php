@@ -22,7 +22,6 @@ set('allow_anonymous_stats', false);
 
 // Hosts
 host('pr.lol')
-    ->stage('production')
     ->set('deploy_path', '/var/www/html');
 
 // Tasks
