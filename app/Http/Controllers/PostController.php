@@ -43,8 +43,8 @@ class PostController extends Controller
     public function store(StorePost $request, User $user)
     {
         $post = new Post(request);
-        // $image = $request->file('image');
-        // $imageUrl = app('App\Http\Controllers\ImageController')->store($image, Post::class);
+        $image = $request->file('image');
+        $imageUrl = app('App\Http\Controllers\ImageController')->store($image, Post::class);
 
         $user->posts()->save($comment);
 

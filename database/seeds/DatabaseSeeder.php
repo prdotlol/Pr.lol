@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use PostTypesTableSeeder;
 
 class DatabaseSeeder extends Seeder
 {

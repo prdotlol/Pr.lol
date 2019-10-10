@@ -6,7 +6,6 @@ use App\Image;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 
-
 class ImageController extends Controller
 {
     /**
@@ -37,9 +36,13 @@ class ImageController extends Controller
      */
     public function store($image, $model)
     {
-        //
+        dd($model);
         Storage::put('file.jpg', $image, 'public');
+        $imageModel = new Image;
+        $imageModel->name = $request->name;
+        $imageModel->save();
     }
+
 
     /**
      * Display the specified resource.

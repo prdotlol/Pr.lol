@@ -18,7 +18,7 @@ class CreatePostTypesTable extends Migration
             $table->string('name')->unique();
             $table->string('slug')->unique();
             $table->string('des');
-            $table->integer('user_id')->unique();
+            $table->integer('user_id');
             $table->boolean('admin_only')->default(0);
             $table->timestamps();
         });

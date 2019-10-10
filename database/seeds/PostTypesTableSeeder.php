@@ -37,13 +37,19 @@ class PostTypesTableSeeder extends Seeder
         DB::table('post_types')->insert([
             'name' => 'Product',
             'slug' => 'product',
-            'des' => 'Share product.'
+            'des' => 'Share useable products.'
         ]);
 
         DB::table('post_types')->insert([
             'name' => 'Question',
             'slug' => 'question',
             'des' => 'Start a discussion with the community.'
+        ]);
+
+        DB::table('post_types')->insert([
+            'name' => 'Resource',
+            'slug' => 'resource',
+            'des' => 'Useful resources for the community.'
         ]);
     }
 }

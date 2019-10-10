@@ -1,6 +1,6 @@
 <p align="center"><img src="public/image/pr-icons/pull-request.svg" width="250"></p>
 <p align="center">
-    This is the main monorepo codebase of Pr.lol (Pronounced `pr-dot-lol` aka `Pull request`). Pull request is a fully open source, powerful platform for building and running modern communities. 
+    This is the main monorepo codebase of Pr.lol (Pronounced <code>pr-dot-lol</code> aka <code>Pull request</code>). Pull request is a fully open source, powerful platform for building and running modern communities. 
 </p>
 <p align="center">
 
