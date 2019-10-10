@@ -25,7 +25,6 @@ host('pr.lol')
     ->set('deploy_path', '/var/www/html');
 
 // Tasks
-
 task('build', function () {
     run('cd {{release_path}} && build');
 });
@@ -34,6 +33,5 @@ task('build', function () {
 after('deploy:failed', 'deploy:unlock');
 
 // Migrate database before symlink new release.
-
 before('deploy:symlink', 'artisan:migrate');
 

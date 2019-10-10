@@ -69,7 +69,7 @@ jobs:
       - checkout
       - add_ssh_keys:
           fingerprints:
-            - "ad:23:1f:5b:46:df:9d:07:c9:4f:83:65:c7:04:92:dc"
+            - "2e:70:69:46:17:f8:1e:e7:85:d7:70:c9:78:3f:de:99"
       - run:
           name: Install Deployer
           command: |
