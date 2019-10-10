@@ -21,8 +21,8 @@ add('writable_dirs', []);
 set('allow_anonymous_stats', false);
 
 // Hosts
-
-host('project.com')
+host('pr.lol')
+    ->stage('production')
     ->set('deploy_path', '/var/www/html');
 
 // Tasks
