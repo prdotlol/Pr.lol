@@ -79,7 +79,7 @@ jobs:
       - run:
           name: Deploy
           command: |
-            dep deploy pr.lol
+            dep deploy 159.203.11.1
 workflows:
   version: 2
   notify_deploy:
