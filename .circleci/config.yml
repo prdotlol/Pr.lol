@@ -69,8 +69,7 @@ jobs:
       - checkout
       - add_ssh_keys:
           fingerprints:
-            - "SHA256:d61U14zGt/eQ4ogpNaA3AHmE1VBbV9WsNFHJ11mZ10I"
-            - "SHA256:jfceS8F0o1+y+r72yhWu3u94xJFZfcIG7RctiIm6Dqw"
+            - "2e:70:69:46:17:f8:1e:e7:85:d7:70:c9:78:3f:de:99"
       - run:
           name: Install Deployer
           command: |
