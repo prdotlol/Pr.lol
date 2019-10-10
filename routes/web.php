@@ -22,6 +22,7 @@ Route::get('/callback/{provider}', 'SocialAuthController@callback');
 Route::get('/redirect/{provider}', 'SocialAuthController@redirect');
 
 Route::resource('posts', 'PostController');
+Route::resource('images', 'ImageController');
 
 Route::get('/{user}', 'ProfileController@profile');
 

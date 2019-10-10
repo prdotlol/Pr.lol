@@ -2,18 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use Gate;
-use App\Post;
+use App\Image;
 use Illuminate\Http\Request;
-use App\Http\Requests\StorePost;
+use Illuminate\Support\Facades\Storage;
 
-class PostController extends Controller
+
+class ImageController extends Controller
 {
-    public function __construct()
-    {
-        $this->authorizeResource(Post::class, 'post');
-    }
-
     /**
      * Display a listing of the resource.
      *
@@ -29,9 +24,9 @@ class PostController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create(Request $request)
+    public function create()
     {
-        return view('posts.create');
+        //
     }
 
     /**
@@ -40,23 +35,19 @@ class PostController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(StorePost $request, User $user)
+    public function store($image, $model)
     {
-        $post = new Post(request);
-        // $image = $request->file('image');
-        // $imageUrl = app('App\Http\Controllers\ImageController')->store($image, Post::class);
-
-        $user->posts()->save($comment);
-
+        //
+        Storage::put('file.jpg', $image, 'public');
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Post  $post
+     * @param  \App\Image  $image
      * @return \Illuminate\Http\Response
      */
-    public function show(Post $post)
+    public function show(Image $image)
     {
         //
     }
@@ -64,10 +55,10 @@ class PostController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Post  $post
+     * @param  \App\Image  $image
      * @return \Illuminate\Http\Response
      */
-    public function edit(Post $post)
+    public function edit(Image $image)
     {
         //
     }
@@ -76,23 +67,21 @@ class PostController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Post  $post
+     * @param  \App\Image  $image
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, User $user, Post $post)
+    public function update(Request $request, Image $image)
     {
-        return $user->id === $post->user_id
-                ? Response::allow()
-                : Response::deny('You do not own this post.');
+        //
     }
 
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Post  $post
+     * @param  \App\Image  $image
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Post $post)
+    public function destroy(Image $image)
     {
         //
     }
