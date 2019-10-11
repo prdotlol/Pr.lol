@@ -69,8 +69,8 @@ jobs:
       - checkout
       - add_ssh_keys:
           fingerprints:
-            - "2e:70:69:46:17:f8:1e:e7:85:d7:70:c9:78:3f:de:99"
-      - run: ssh-keyscan 159.203.11.1 >> ~/.ssh/known_hosts
+            - "0d:7f:6e:57:b3:01:93:cf:02:45:a3:d8:6b:76:72:9c"
+      - run: ssh-keyscan 159.203.47.0 >> ~/.ssh/known_hosts
       - run:
           name: Install Deployer
           command: |
@@ -80,7 +80,7 @@ jobs:
       - run:
           name: Deploy
           command: |
-            dep deploy 159.203.11.1
+            dep deploy root@159.203.47.0
 workflows:
   version: 2
   notify_deploy:

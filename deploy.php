@@ -21,7 +21,7 @@ add('writable_dirs', []);
 set('allow_anonymous_stats', false);
 
 // Hosts
-host('159.203.11.1')
+host('root@159.203.47.0')
     ->set('deploy_path', '/var/www/html');
 
 // Tasks
