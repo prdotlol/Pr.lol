@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Uuid;
 use App\Image;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
@@ -34,12 +35,20 @@ class ImageController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store($image, $model)
+    public function store($model, $image, $alt = '', $comment = '')
     {
-        dd($model);
-        Storage::put('file.jpg', $image, 'public');
+        $extension = $image->getClientOriginalExtension();
+        $uuid = Uuid::generate(4);
+        $fileName = 'images/' . $uuid . $extension;
+        Storage::put($fileName, $image, 'public');
+
         $imageModel = new Image;
-        $imageModel->name = $request->name;
+        $imageModel->uuid = $uuid;
+        $imageModel->model_name = get_class($model);
+        $imageModel->related_model_id = $model->id;
+        $imageModel->url = Storage::url($fileName);
+        $imageModel->alt = $alt;
+        $imageModel->comment = $comment;
         $imageModel->save();
     }
 

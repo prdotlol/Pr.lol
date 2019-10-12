@@ -16,6 +16,7 @@ class CreateImagesTable extends Migration
         Schema::create('images', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('uuid');
+            $table->string('url');
             $table->string('model_name');
             $table->string('related_model_id');
             $table->string('alt');

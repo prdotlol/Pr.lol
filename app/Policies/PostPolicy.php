@@ -32,7 +32,7 @@ class PostPolicy
      */
     public function view(User $user, Post $post)
     {
-        //
+        return true;
     }
 
     /**

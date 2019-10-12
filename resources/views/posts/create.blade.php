@@ -7,7 +7,7 @@
             <div class="title">Share something...</div>
         </div>
         <div class="feed">
-            <form method="POST" action="{{ route('posts.store') }}">
+            <form method="POST" action="{{ route('posts.store') }}" enctype="multipart/form-data">
                 @csrf
                 <div class="form-group">
                     <label for="title">{{ __('Title') }}</label>
@@ -34,7 +34,7 @@
 
                 <div class="form-group">
                     <label for="image">{{ __('Image') }}</label>
-                    <input id="image" type="file" class="form-control-file @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}" required autofocus>
+                    <input id="image" type="file" class="form-control-file @error('image') is-invalid @enderror" name="image" value="{{ old('image') }}" autofocus>
                     <small id="contentlHelp" class="form-text text-muted">Select an image related to this post.</small>
                     @error('image')
                         <span class="invalid-feedback" role="alert">

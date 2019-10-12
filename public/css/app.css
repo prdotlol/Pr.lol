@@ -72,7 +72,7 @@ body {
   line-height: 1.6;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #fafafa;
 }
 
 [tabindex="-1"]:focus {
@@ -517,7 +517,7 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #fff;
+  background-color: #fafafa;
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
@@ -4097,15 +4097,15 @@ input[type=button].btn-block {
 }
 
 .custom-range:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(253, 97, 17, 0.25);
+  box-shadow: 0 0 0 1px #fafafa, 0 0 0 0.2rem rgba(253, 97, 17, 0.25);
 }
 
 .custom-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(253, 97, 17, 0.25);
+  box-shadow: 0 0 0 1px #fafafa, 0 0 0 0.2rem rgba(253, 97, 17, 0.25);
 }
 
 .custom-range:focus::-ms-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(253, 97, 17, 0.25);
+  box-shadow: 0 0 0 1px #fafafa, 0 0 0 0.2rem rgba(253, 97, 17, 0.25);
 }
 
 .custom-range::-moz-focus-outer {
@@ -4305,8 +4305,8 @@ input[type=button].btn-block {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
-  background-color: #fff;
-  border-color: #dee2e6 #dee2e6 #fff;
+  background-color: #fafafa;
+  border-color: #dee2e6 #dee2e6 #fafafa;
 }
 
 .nav-tabs .dropdown-menu {
@@ -10783,6 +10783,7 @@ textarea {
 
 #app {
   display: flex;
+  color: #191b22;
 }
 
 nav {
@@ -10901,7 +10902,8 @@ toodle {
   align-items: flex-start;
   text-align: right;
   width: 400px;
-  background: #f3f3f3;
+  background: #191b22;
+  color: #9baec8;
   min-height: 100vh;
 }
 
@@ -10913,7 +10915,6 @@ toodle .member-featured {
 toodle .member-featured .title {
   font-weight: 500;
   margin-bottom: 5px;
-  color: #999;
 }
 
 toodle .member-featured .item {

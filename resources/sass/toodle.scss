@@ -7,7 +7,8 @@ toodle {
     align-items: flex-start;
     text-align: right;
     width: 400px;
-    background: #f3f3f3;
+    background: $body-bg-dark;
+    color: $text-dark;
     min-height: 100vh;
 
     .member-featured{
@@ -17,7 +18,6 @@ toodle {
         .title{
             font-weight: 500;
             margin-bottom: 5px;
-            color: #999;
         }
 
         .item{
