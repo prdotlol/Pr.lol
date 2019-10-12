@@ -26,4 +26,9 @@ class Post extends Model
     {
         return $this->belongsTo('App\PostType', 'post_type', 'slug');
     }
+
+    public function images()
+    {
+        return $this->hasMany('App\Image', 'related_model_id', 'id')->where('model_name', get_class($this->get()));
+    }
 }

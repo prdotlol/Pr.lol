@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('toodle')
+1`2
+@endsection
+
 @section('content')
 <div class="post-create">
     <div class="feed-container">
