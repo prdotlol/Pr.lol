@@ -20,7 +20,6 @@ class CreatePostsTable extends Migration
             $table->string('title');
             $table->string('slug')->unique();
             $table->longText('content');
-            $table->string('image');
             $table->boolean('page')->default(false);
             $table->boolean('official')->default(false);
             $table->timestamps();

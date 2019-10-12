@@ -7,6 +7,7 @@ use App\User;
 use App\Post;
 use Illuminate\Http\Request;
 use App\Http\Requests\StorePost;
+use App\Services\SlugService;
 
 class PostController extends Controller
 {
@@ -41,14 +42,16 @@ class PostController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(StorePost $request)
+    public function store(StorePost $request, SlugService $slugService)
     {
         $post = new Post($request->validated());
-        dd($post);
+        $post->slug = $slugService->createUniqueSlug(Post::class, $post->title);
         $post = $request->user()->posts()->save($post);
+
+        $image = $request->file('image');
+        $imageUrl = app('App\Http\Controllers\ImageController')->store($image, Post::class);
+
         dd($post);
-        // $image = $request->file('image');
-        // $imageUrl = app('App\Http\Controllers\ImageController')->store($image, Post::class);
 
 
 
