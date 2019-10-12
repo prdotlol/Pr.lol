@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Uuid;
+use Image as InterventionImage;
 use App\Image;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
@@ -37,10 +38,12 @@ class ImageController extends Controller
      */
     public function store($model, $image, $alt = '', $comment = '')
     {
-        $extension = $image->getClientOriginalExtension();
+        $webp = (string) InterventionImage::make($image)->encode('webp', 90);
+        $extension = '.webp';
         $uuid = Uuid::generate(4);
         $fileName = 'images/' . $uuid . $extension;
-        Storage::put($fileName, $image, 'public');
+
+        Storage::disk('public')->put($fileName, $webp);
 
         $imageModel = new Image;
         $imageModel->uuid = $uuid;
