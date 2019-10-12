@@ -7,7 +7,7 @@
             <div class="title">Share something...</div>
         </div>
         <div class="feed">
-            <form method="POST" action="{{ route('posts.store') }}">
+            <form method="POST" action="{{ route('posts.store') }}" enctype="multipart/form-data">
                 @csrf
                 <div class="form-group">
                     <label for="title">{{ __('Title') }}</label>
