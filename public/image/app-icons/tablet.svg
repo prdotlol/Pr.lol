@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="48px" viewBox="0 0 32 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>tablet</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 0 8 24 8 24 0"></polygon>
+        <path d="M28,0 C30.209139,0 32,1.95366655 32,4.36363636 L32,43.6363636 C32,46.0463335 30.209139,48 28,48 L4,48 C1.790861,48 0,46.0463335 0,43.6363636 L0,4.36363636 C0,1.95366655 1.790861,0 4,0 L28,0 Z M28,4 L4,4 L4,44 L28,44 L28,4 Z M16,38 C17.1045695,38 18,38.8954305 18,40 C18,41.1045695 17.1045695,42 16,42 C14.8954305,42 14,41.1045695 14,40 C14,38.8954305 14.8954305,38 16,38 Z M19,8 C19.5522847,8 20,8.44771525 20,9 C20,9.55228475 19.5522847,10 19,10 L13,10 C12.4477153,10 12,9.55228475 12,9 C12,8.44771525 12.4477153,8 13,8 L19,8 Z" id="path-3"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sugar---Free-SVG-Icons" transform="translate(-124.000000, -643.000000)">
+            <g id="Icons" transform="translate(48.000000, 197.000000)">
+                <g id="2X" transform="translate(0.000000, 335.000000)">
+                    <g id="Icons" transform="translate(0.000000, 43.000000)">
+                        <g id="tablet" transform="translate(68.000000, 68.000000)">
+                            <g transform="translate(8.000000, 0.000000)">
+                                <g id="Color/Fill" transform="translate(4.000000, 36.000000)">
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                                    <g mask="url(#mask-2)" fill="#9BAEC8">
+                                        <g transform="translate(-12.000000, -36.000000)">
+                                            <rect x="0" y="0" width="48" height="48"></rect>
+                                        </g>
+                                    </g>
+                                </g>
+                                <g id="Color/Stroke">
+                                    <mask id="mask-4" fill="white">
+                                        <use xlink:href="#path-3"></use>
+                                    </mask>
+                                    <use id="Mask" fill="#000000" fill-rule="nonzero" xlink:href="#path-3"></use>
+                                    <g mask="url(#mask-4)" fill="#191B22">
+                                        <g transform="translate(-8.000000, 0.000000)">
+                                            <rect x="0" y="0" width="48" height="48"></rect>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

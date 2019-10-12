@@ -48,7 +48,6 @@ class PostController extends Controller
         $post = new Post($request->validated());
         $post->slug = $slugService->createUniqueSlug(Post::class, $post->title);
         $post = $request->user()->posts()->save($post);
-
         $image = $request->file('image');
 
         if($image){
@@ -56,7 +55,6 @@ class PostController extends Controller
         }
 
         dd($post);
-
     }
 
     /**

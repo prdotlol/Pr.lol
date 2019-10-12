@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="44px" viewBox="0 0 36 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>paper-bag</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M32,18 L32,28 L0,28 L0,18 L32,18 Z M14.6652832,0 C15.7698527,0 16.6652832,0.8954305 16.6652832,2 C16.6652832,3.1045695 15.7698527,4 14.6652832,4 L8,4 C6.8954305,4 6,3.1045695 6,2 C6,0.8954305 6.8954305,0 8,0 L14.6652832,0 Z" id="path-1"></path>
+        <path d="M6.7427315,3.0883984 L7.53727474,3.83685888 L8.1011353,3.24380998 C9.71229121,1.54925228 12.4271678,1.59199124 13.9841854,3.33642393 L14.4247223,3.82998734 L15.3356573,3.01649904 C16.9323258,1.59063318 19.36856,1.67455351 20.8633275,3.20690927 L21.4792694,3.83834003 L22.2232431,3.12082976 C23.782946,1.6166062 26.2568096,1.62783906 27.8027883,3.14616433 L28.5856803,3.91505253 C29.288571,2.76645158 30.5547783,2 32,2 C34.209139,2 36,3.790861 36,6 L36,42 C36,44.209139 34.209139,46 32,46 L4,46 C1.790861,46 0,44.209139 0,42 L0,6 C0,2.4936781 4.19047838,0.684173511 6.7427315,3.0883984 Z M32,35.9990594 L4,35.9990594 L4,42 L32,42 L32,35.9990594 Z M32,6 L28.5418701,9.47851562 L25,6 L21.3931885,9.47851562 L18,6 L14.1047974,9.47851562 L11,6 L7.69268799,9.47851562 L4,6 L4,31.9990594 L32,31.9990594 L32,6 Z M16.6652832,14 C17.7698527,14 18.6652832,14.8954305 18.6652832,16 C18.6652832,17.1045695 17.7698527,18 16.6652832,18 L10,18 C8.8954305,18 8,17.1045695 8,16 C8,14.8954305 8.8954305,14 10,14 L16.6652832,14 Z" id="path-3"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sugar---Free-SVG-Icons" transform="translate(-530.000000, -917.000000)">
+            <g id="Icons" transform="translate(48.000000, 197.000000)">
+                <g id="2X" transform="translate(0.000000, 335.000000)">
+                    <g id="Icons" transform="translate(0.000000, 43.000000)">
+                        <g id="paper-bag" transform="translate(476.000000, 340.000000)">
+                            <g transform="translate(6.000000, 0.000000)">
+                                <g id="Color/Fill" transform="translate(2.000000, 16.000000)">
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <use id="Mask" fill="#D8D8D8" fill-rule="nonzero" xlink:href="#path-1"></use>
+                                    <g mask="url(#mask-2)" fill="#9BAEC8">
+                                        <g transform="translate(-8.000000, -16.000000)">
+                                            <rect x="0" y="0" width="48" height="48"></rect>
+                                        </g>
+                                    </g>
+                                </g>
+                                <g id="Color/Stroke">
+                                    <mask id="mask-4" fill="white">
+                                        <use xlink:href="#path-3"></use>
+                                    </mask>
+                                    <use id="Mask" fill="#000000" fill-rule="nonzero" xlink:href="#path-3"></use>
+                                    <g mask="url(#mask-4)" fill="#191B22">
+                                        <g transform="translate(-6.000000, 0.000000)">
+                                            <rect x="0" y="0" width="48" height="48"></rect>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -70,6 +70,24 @@ nav {
             align-items: center;
             justify-content: flex-end;
 
+            .create{
+                display: block;
+                height: 25px;
+                width: 25px;
+                background: url('/image/app-icons/upload.svg') no-repeat;
+                background-size: 100% auto;
+                margin-right: 14px;
+            }
+
+            .settings{
+                display: block;
+                height: 25px;
+                width: 25px;
+                background: url('/image/app-icons/gear.svg') no-repeat;
+                background-size: 100% auto;
+                margin-right: 12px;
+            }
+
             .icon{
                 margin-right: 13px;
                 color: #333;

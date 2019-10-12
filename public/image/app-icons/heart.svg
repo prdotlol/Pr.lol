@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="40px" viewBox="0 0 44 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>heart</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15.2929687,2.38623047 C16.6611328,10.6027018 13.9228516,15.8911133 7.078125,18.2514648 C0.233398437,20.6118164 -1.60351563,25.8984375 1.56738281,34.1113281 L6,38.5307617 L25.0458984,19.0957031 C27.0100911,12.8323568 25.6165365,7.65901693 20.8652344,3.57568359 C17.7154948,1.14990234 15.8580729,0.753417969 15.2929687,2.38623047 Z" id="path-1"></path>
+        <path d="M37.3414669,20.0939898 C40.8888409,16.4095067 40.8857862,10.4430862 37.3346415,6.76250713 C33.7834968,3.0819281 28.0268964,3.0787621 24.471985,6.75543295 L21.9404137,9.37927646 L19.4932605,6.84212514 C15.9484335,3.16886997 10.2017403,3.16949889 6.65766189,6.84352988 C3.11358348,10.5175609 3.11419028,16.4737131 6.65901723,20.1469683 L21.9500947,36 L37.3414669,20.0939898 Z M19.071101,38.7769399 L3.78072068,22.9246308 C-1.25948807,17.7018165 -1.26034502,9.29037131 3.77877918,4.0664749 C8.75310344,-1.09024551 16.7908679,-1.23465932 21.9374338,3.63460323 C27.0891152,-1.32625388 35.20246,-1.20825848 40.2132312,3.98514837 C45.2584703,9.21427955 45.2627809,17.6337217 40.2230005,22.868294 L24.8854148,38.7649168 C24.308937,39.3624064 23.5929402,39.7409067 22.8396961,39.9004177 C21.5218741,40.1995275 20.0817808,39.8247626 19.071101,38.7769399 Z" id="path-3"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sugar---Free-SVG-Icons" transform="translate(-254.000000, -783.000000)">
+            <g id="Icons" transform="translate(48.000000, 197.000000)">
+                <g id="2X" transform="translate(0.000000, 335.000000)">
+                    <g id="Icons" transform="translate(0.000000, 43.000000)">
+                        <g id="heart" transform="translate(204.000000, 204.000000)">
+                            <g transform="translate(2.000000, 4.000000)">
+                                <g id="Color/Fill" transform="translate(16.000000, 0.000000)">
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                                    <g mask="url(#mask-2)" fill="#9BAEC8">
+                                        <g transform="translate(-18.000000, -4.000000)">
+                                            <rect x="0" y="0" width="48" height="48"></rect>
+                                        </g>
+                                    </g>
+                                </g>
+                                <g id="Color/Stroke">
+                                    <mask id="mask-4" fill="white">
+                                        <use xlink:href="#path-3"></use>
+                                    </mask>
+                                    <use id="Mask" fill="#000000" fill-rule="nonzero" xlink:href="#path-3"></use>
+                                    <g mask="url(#mask-4)" fill="#191B22">
+                                        <g transform="translate(-2.000000, -4.000000)">
+                                            <rect x="0" y="0" width="48" height="48"></rect>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

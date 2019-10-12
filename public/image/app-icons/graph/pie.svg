@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>graph/pie</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0.549154801,0 C5.76879812,0 10.0001551,4.23135695 10.0001551,9.45100027 L9.999,9.396 L-3.55271368e-15,9.39628256 L0.000749520329,0.0156456617 C0.182227295,0.00526263612 0.365076471,0 0.549154801,0 Z" id="path-1"></path>
+        <path d="M19,6 C19.4224252,6 19.8434931,6.01384791 20.2627132,6.04144116 C22.3653177,6.17983545 24,7.9256504 24,10.0328046 L24,20 L33.9671954,20 C36.0743496,20 37.8201645,21.6346823 37.9585588,23.7372868 C37.9861521,24.1565069 38,24.5775748 38,25 C38,35.4934102 29.4934102,44 19,44 C8.50658975,44 0,35.4934102 0,25 C0,14.5065898 8.50658975,6 19,6 Z M19,10 C10.7157288,10 4,16.7157288 4,25 C4,33.2842712 10.7157288,40 19,40 C27.2842712,40 34,33.2842712 34,25 C34,24.6639714 33.9889506,24.3305236 33.9671954,24 L20,24 L20,10.0328046 C19.6694764,10.0110494 19.3360286,10 19,10 Z M30.5491548,0 C37.948987,0 43.9580033,5.97703893 44,13.3736062 C44.0125097,15.5915705 42.2179999,17.3962826 40,17.3962826 L30,17.3962826 C27.790861,17.3962826 26,15.6054216 26,13.3962826 L26,4.01568857 C26,1.89542785 27.6544152,0.143513799 29.7712046,0.0222373492 C30.0297088,0.00742696446 30.2891049,0 30.5491548,0 Z M30.5491548,4 C30.364823,4 30.1817238,4.00527714 30,4.01568857 L30,13.3962826 L40,13.3962826 C39.9705517,8.20181737 35.7505468,4 30.5491548,4 Z" id="path-3"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sugar---Free-SVG-Icons" transform="translate(-662.000000, -781.000000)">
+            <g id="Icons" transform="translate(48.000000, 197.000000)">
+                <g id="2X" transform="translate(0.000000, 335.000000)">
+                    <g id="Icons" transform="translate(0.000000, 43.000000)">
+                        <g id="graph/pie" transform="translate(612.000000, 204.000000)">
+                            <g transform="translate(2.000000, 2.000000)">
+                                <g id="Color/Fill" transform="translate(32.000000, 4.000000)">
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                                    <g mask="url(#mask-2)" fill="#9BAEC8">
+                                        <g transform="translate(-34.000000, -6.000000)">
+                                            <rect x="0" y="0" width="48" height="48"></rect>
+                                        </g>
+                                    </g>
+                                </g>
+                                <g id="Color/Stroke">
+                                    <mask id="mask-4" fill="white">
+                                        <use xlink:href="#path-3"></use>
+                                    </mask>
+                                    <use id="Mask" fill="#000000" fill-rule="nonzero" xlink:href="#path-3"></use>
+                                    <g mask="url(#mask-4)" fill="#191B22">
+                                        <g transform="translate(-2.000000, -2.000000)">
+                                            <rect x="0" y="0" width="48" height="48"></rect>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="40px" viewBox="0 0 44 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>comment</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 38 0 38 6 33.2744141 6 31.4643555 14.5209961 21.5805664 6 0 6"></polygon>
+        <path d="M6,4 C4.8954305,4 4,4.8954305 4,6 L4,26 C4,27.1045695 4.8954305,28 6,28 L26,28 L34,36 L34,28 L38,28 C39.1045695,28 40,27.1045695 40,26 L40,6 C40,4.8954305 39.1045695,4 38,4 L6,4 Z M38,0 C41.3137085,0 44,2.6862915 44,6 L44,26 C44,29.3137085 41.3137085,32 38,32 L38,36 C38,39.5636194 33.6914323,41.3482866 31.1715729,38.8284271 L24.3431458,32 L6,32 C2.6862915,32 0,29.3137085 0,26 L0,6 C0,2.6862915 2.6862915,0 6,0 L38,0 Z M24,18 L10,18 C8.8954305,18 8,18.8954305 8,20 C8,21.1045695 8.8954305,22 10,22 L10,22 L24,22 C25.1045695,22 26,21.1045695 26,20 C26,18.8954305 25.1045695,18 24,18 L24,18 Z M34,10 L10,10 C8.8954305,10 8,10.8954305 8,12 C8,13.0543618 8.81587779,13.9181651 9.85073766,13.9945143 L10,14 L34,14 C35.1045695,14 36,13.1045695 36,12 C36,10.8954305 35.1045695,10 34,10 Z" id="path-3"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sugar---Free-SVG-Icons" transform="translate(-458.000000, -717.000000)">
+            <g id="Icons" transform="translate(48.000000, 197.000000)">
+                <g id="2X" transform="translate(0.000000, 335.000000)">
+                    <g id="Icons" transform="translate(0.000000, 43.000000)">
+                        <g id="comment" transform="translate(408.000000, 136.000000)">
+                            <g transform="translate(2.000000, 6.000000)">
+                                <g id="Color/Fill" transform="translate(4.000000, 24.000000)">
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                                    <g mask="url(#mask-2)" fill="#9BAEC8">
+                                        <g transform="translate(-6.000000, -30.000000)">
+                                            <rect x="0" y="0" width="48" height="48"></rect>
+                                        </g>
+                                    </g>
+                                </g>
+                                <g id="Color/Stroke">
+                                    <mask id="mask-4" fill="white">
+                                        <use xlink:href="#path-3"></use>
+                                    </mask>
+                                    <use id="Mask" fill="#000000" fill-rule="nonzero" xlink:href="#path-3"></use>
+                                    <g mask="url(#mask-4)" fill="#191B22">
+                                        <g transform="translate(-2.000000, -6.000000)">
+                                            <rect x="0" y="0" width="48" height="48"></rect>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

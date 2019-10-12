@@ -23,7 +23,8 @@ Thank you for considering contributing to the Pr.lol!
 ## Feature overview
 - [x] User accounts (social login) 
 - [x] Posts CMS
-- [ ] Comments
+- [x] Image uploads converted to .webp by default
+- [ ] Discussions
 - [ ] Auto SEO
 - [ ] System emails and updates
 - [ ] Admin system

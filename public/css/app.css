@@ -10859,6 +10859,24 @@ nav .right .user {
   justify-content: flex-end;
 }
 
+nav .right .user .create {
+  display: block;
+  height: 25px;
+  width: 25px;
+  background: url("/image/app-icons/upload.svg") no-repeat;
+  background-size: 100% auto;
+  margin-right: 14px;
+}
+
+nav .right .user .settings {
+  display: block;
+  height: 25px;
+  width: 25px;
+  background: url("/image/app-icons/gear.svg") no-repeat;
+  background-size: 100% auto;
+  margin-right: 12px;
+}
+
 nav .right .user .icon {
   margin-right: 13px;
   color: #333;
@@ -11023,7 +11041,7 @@ toodle .footer .opensource .icon {
 }
 
 .welcome-guest .text-shadow {
-  color: #888;
+  color: #9baec8;
   font-size: 1.2em;
   margin-bottom: 5px;
 }

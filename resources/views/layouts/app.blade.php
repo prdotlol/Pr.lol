@@ -41,8 +41,8 @@
                         <div class="right">
                             @auth
                                 <div class="user">
-                                    <a href="/posts/create" class="create"><i class="icon" data-feather="plus-circle"></i></a>
-                                    <a class="settings"><i class="icon" data-feather="settings"></i></a>
+                                    <a href="/posts/create" class="create"></a>
+                                    <a class="settings"></a>
                                     <a href="/{{ Auth::user()->username }}" class="name">{{ Auth::user()->name }}</a>
                                     <a href="/{{ Auth::user()->username }}" class="avatar">{{ Auth::user()->inititals }}</a>
                                 </div>
