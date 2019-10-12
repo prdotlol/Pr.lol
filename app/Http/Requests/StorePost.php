@@ -2,6 +2,7 @@
 
 namespace App\Http\Requests;
 
+use Auth;
 use Illuminate\Foundation\Http\FormRequest;
 
 class StorePost extends FormRequest
@@ -13,7 +14,7 @@ class StorePost extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return Auth::check();
     }
 
     /**
@@ -26,7 +27,7 @@ class StorePost extends FormRequest
         return [
             'title' => 'required|max:255',
             'content' => 'required',
-            'image' => 'image|mimes:jpeg,png,jpg,gif,svg|max:4048',
+            'image' => 'image|nullable|mimes:jpeg,png,jpg,gif,svg|max:4048',
         ];
     }
 }

@@ -6,13 +6,16 @@ use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model
 {
-    protected $attributes = [
+    protected $fillable = [
         'title',
         'slug',
         'content',
         'image',
-        'page' => false,
-        'official' => false,
+    ];
+
+    protected $guarded = [
+        'page',
+        'official',
     ];
 
     public function user()

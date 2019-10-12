@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Gate;
+use App\User;
 use App\Post;
 use Illuminate\Http\Request;
 use App\Http\Requests\StorePost;
@@ -11,7 +12,7 @@ class PostController extends Controller
 {
     public function __construct()
     {
-        $this->authorizeResource(Post::class, 'post');
+        // $this->authorizeResource(Post::class, 'post');
     }
 
     /**
@@ -40,13 +41,16 @@ class PostController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(StorePost $request, User $user)
+    public function store(StorePost $request)
     {
-        $post = new Post(request);
-        $image = $request->file('image');
-        $imageUrl = app('App\Http\Controllers\ImageController')->store($image, Post::class);
+        $post = new Post($request->validated());
+        dd($post);
+        $post = $request->user()->posts()->save($post);
+        dd($post);
+        // $image = $request->file('image');
+        // $imageUrl = app('App\Http\Controllers\ImageController')->store($image, Post::class);
 
-        $user->posts()->save($comment);
+
 
     }
 
