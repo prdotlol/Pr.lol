@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use App\User;
+use App\Post;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 use Illuminate\Support\Facades\Route;
 
@@ -28,6 +29,10 @@ class RouteServiceProvider extends ServiceProvider
 
         Route::bind('user', function ($value) {
             return User::where('username', $value)->first() ?? abort(404);
+        });
+
+        Route::bind('post', function ($value) {
+            return Post::where('slug', $value)->first() ?? abort(404);
         });
     }
 

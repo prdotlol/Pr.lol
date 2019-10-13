@@ -10951,9 +10951,14 @@ toodle .content-community .title {
 }
 
 toodle .content-community .item {
-  background: #fff;
-  border-radius: 20px;
-  border: 1px solid #e2e2e2;
+  display: block;
+  font-size: 0.9em;
+  text-align: right;
+}
+
+toodle .content-community .item .logo {
+  display: block;
+  max-height: 35px;
 }
 
 toodle .footer {
@@ -11041,7 +11046,7 @@ toodle .footer .opensource .icon {
 }
 
 .welcome-guest .text-shadow {
-  color: #9baec8;
+  color: #888888;
   font-size: 1.2em;
   margin-bottom: 5px;
 }

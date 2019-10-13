@@ -9,7 +9,10 @@
 
         <div class="content-community">
             <div class="title">Community Sponsors</div>
-            <div class="item">Clew</div>
+            <div class="item">
+                {{-- <img src="image/logos/digitalocean.webp" class="logo"/>
+                <div>The simplest cloud platform for developers & teams.</div> --}}
+            </div>
         </div>
 
         <div class="footer">

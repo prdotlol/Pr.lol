@@ -46,7 +46,7 @@ class ImageController extends Controller
         Storage::disk('public')->put($fileName, $webp);
 
         $imageModel = new Image;
-        $imageModel->uuid = $uuid;
+        $imageModel->id = $uuid;
         $imageModel->model_name = get_class($model);
         $imageModel->related_model_id = $model->id;
         $imageModel->url = Storage::url($fileName);

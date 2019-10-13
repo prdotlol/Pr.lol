@@ -15,3 +15,4 @@ feather.replace()
  */
 
 require('./components/Example');
+require('./components/Post');

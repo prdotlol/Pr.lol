@@ -19,6 +19,7 @@ return [
     ],
 
     'reserved_usernames' => [
+        'api',
         'admin',
         'moderator',
         'udara',
@@ -54,7 +55,7 @@ return [
         ],
 
         'api' => [
-            'driver' => 'token',
+            'driver' => 'passport',
             'provider' => 'users',
             'hash' => false,
         ],

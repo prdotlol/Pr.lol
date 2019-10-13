@@ -36,9 +36,14 @@ toodle {
         }
 
         .item{
-            background: #fff;
-            border-radius: 20px;
-            border: 1px solid #e2e2e2;
+            display: block;
+            font-size: 0.9em;
+            text-align: right;
+
+            .logo{
+                display: block;
+                max-height: 35px;
+            }
         }
     }
 
