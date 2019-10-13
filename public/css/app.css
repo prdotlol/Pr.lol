@@ -10914,15 +10914,21 @@ nav .right .user .avatar {
 toodle {
   display: flex;
   flex-wrap: wrap;
-  padding: 20px 30px 0 40px;
-  justify-content: flex-end;
+  padding: 20px 30px 20px 30px;
   vertical-align: text-top;
   align-items: flex-start;
-  text-align: right;
   width: 400px;
   background: #191b22;
   color: #9baec8;
   min-height: 100vh;
+  margin: 5px 0 5px 5px;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 1300px) {
+  toodle {
+    display: none;
+  }
 }
 
 toodle .member-featured {
@@ -10964,14 +10970,12 @@ toodle .content-community .item .logo {
 toodle .footer {
   display: flex;
   align-self: flex-end;
-  justify-content: flex-end;
   width: 100%;
   padding: 0 0 20px 0;
 }
 
 toodle .footer .opensource {
   display: flex;
-  justify-content: flex-end;
   vertical-align: middle;
   align-items: center;
   flex-wrap: wrap;
@@ -10983,7 +10987,6 @@ toodle .footer .opensource .icon-holder {
   display: block;
   vertical-align: middle;
   align-items: center;
-  justify-content: flex-end;
   width: 100%;
   text-align: right;
   margin-bottom: 5px;
@@ -11000,6 +11003,12 @@ toodle .footer .opensource .icon {
   display: grid;
   grid-template-columns: 30px 700px 30px auto 30px;
   grid-template-rows: auto 30px auto;
+}
+
+@media only screen and (max-width: 1200px) {
+  .feed-container {
+    grid-template-columns: 30px 500px 30px auto 30px;
+  }
 }
 
 .feed-container .feed {
@@ -11179,5 +11188,12 @@ toodle .footer .opensource .icon {
 .post-create-tips ul li {
   padding: 0;
   margin: 0;
+}
+
+.react-single-post .featured-image {
+  display: block;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 100%;
 }
 

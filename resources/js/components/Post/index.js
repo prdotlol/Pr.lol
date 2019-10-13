@@ -1,34 +1,49 @@
-import React, { Component } from "react";
+import React, { useState, useEffect } from "react";
+import axios from "axios";
 import ReactDOM from 'react-dom';
 
+const Post = (props) => {
+  const [hasError, setErrors] = useState(false);
+  const [post, setPost] = useState({});
 
-export default class Post extends Component {
-    state = {
-      hasErrors: false,
-      post: {}
-    };
+  const fetchData = async () => {
+    const res = await axios.get(`/api/posts/${props.slug}`);
+    let { data } = res.data;
+    setPost(data);
+  }
 
-    componentDidMount() {
-        axios.get(`/api/posts/${this.props.slug}`)
-        .then(function (response) {
-            this.setState({ post: response });
-        })
-        .catch(function (error) {
-            this.setState({ hasErrors: true });
-        });
-    }
+  useEffect(() => {
+    fetchData()
+  }, [])
 
-    render() {
-        return (
-            <div className="">
-                This is a singlre post
-            </div>
-        );
-    }
-}
+  const renderImages = (post) => {
+    console.log(post);
+    return (
+        <div>
+          { post.images.map((value, index) => {
+            return <img key={index} src={value.url} />
+          }) }
+        </div>
+      );
+  }
 
-const elements = document.getElementsByClassName('single-post-js');
+  return (
+    <div className="react-single-post">
+        <h1 className="title">{post.title}</h1>
+        {post.images && post.images.map((image) => (
+          <img
+            key={image.id}
+            src={image.url}
+            className="featured-image"
+          />
+        ))}
+        {post.content}
+    </div>
+  );
+};
 
-$('.single-post-js').each(function(i, obj) {
+export default Post;
+
+$('*[data-react-render="post"]').each(function(i, obj) {
     ReactDOM.render(<Post slug={obj.dataset.slug} />, obj);
 });

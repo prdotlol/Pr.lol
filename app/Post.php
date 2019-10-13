@@ -15,6 +15,11 @@ class Post extends Model
         });
     }
 
+    public function getIncrementing()
+    {
+        return false;
+    }
+
     protected $fillable = [
         'title',
         'slug',
@@ -38,6 +43,6 @@ class Post extends Model
 
     public function images()
     {
-        return $this->hasMany('App\Image', 'related_model_id', 'id')->where('model_name', get_class($this->get()));
+        return $this->hasMany('App\Image', 'related_model_id', 'id')->where('model_name', get_class($this))->get();
     }
 }

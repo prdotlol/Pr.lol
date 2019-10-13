@@ -1,15 +1,19 @@
 toodle {
     display: flex;
     flex-wrap: wrap;
-    padding: 20px 30px 0 40px;
-    justify-content: flex-end;
+    padding: 20px 30px 20px 30px;
     vertical-align: text-top;
     align-items: flex-start;
-    text-align: right;
     width: 400px;
     background: $body-bg-dark;
     color: $text-dark;
     min-height: 100vh;
+    margin: 5px 0 5px 5px;
+    border-radius: 20px;
+
+    @media only screen and (max-width: 1300px) {
+        display: none;
+    }
 
     .member-featured{
         display: block;
@@ -50,13 +54,11 @@ toodle {
     .footer{
         display: flex;
         align-self: flex-end;
-        justify-content: flex-end;
         width: 100%;
         padding: 0 0 20px 0;
 
         .opensource{
             display: flex;
-            justify-content: flex-end;
             vertical-align: middle;
             align-items: center;
             flex-wrap: wrap;
@@ -67,7 +69,6 @@ toodle {
                 display: block;
                 vertical-align: middle;
                 align-items: center;
-                justify-content: flex-end;
                 width: 100%;
                 text-align: right;
                 margin-bottom: 5px;

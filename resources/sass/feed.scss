@@ -3,6 +3,10 @@
     grid-template-columns: 30px 700px 30px auto 30px;
     grid-template-rows: auto 30px auto;
 
+    @media only screen and (max-width: 1200px) {
+        grid-template-columns: 30px 500px 30px auto 30px;
+    }
+
     .feed{
         grid-column-start: 2;
         grid-column-end: 2;

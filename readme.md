@@ -9,7 +9,7 @@
 </p>
 
 ## About Pr.lol
-Pull request is a simple web application that elevates traditional online communities. Built from the ground up to encourgae discusssion and community engament in a wide variety (growing and extensible) formats.
+Pull request is a simple web application that elevates traditional online communities. Built from the ground up to encourgae discusssion and community engament in a wide variety of growing and extensible formats.
 
 Pr.lol aims to be the best platform to build any kind of community online by combining the best of forums and real-time interactions between people. 
 

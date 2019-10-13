@@ -51,10 +51,10 @@ class PostController extends Controller
         $image = $request->file('image');
 
         if($image){
-            $imageService->saveImage($post, $image);
+            $imageService->saveImage($post->fresh(), $image);
         }
 
-        dd($post);
+        dd($post->fresh());
     }
 
     /**

@@ -17,7 +17,7 @@ class CreateImagesTable extends Migration
             $table->uuid('id')->primary();
             $table->string('url');
             $table->string('model_name');
-            $table->string('related_model_id');
+            $table->uuid('related_model_id');
             $table->string('alt');
             $table->string('comment');
             $table->integer('views');
