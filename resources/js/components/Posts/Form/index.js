@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import ReactDOM from 'react-dom';
 
-const Post = (props) => {
+const PostForm = (props) => {
   const [hasError, setErrors] = useState(false);
   const [post, setPost] = useState({});
 
@@ -16,17 +16,6 @@ const Post = (props) => {
     fetchData()
   }, [])
 
-  const renderImages = (post) => {
-    console.log(post);
-    return (
-        <div>
-          { post.images.map((value, index) => {
-            return <img key={index} src={value.url} />
-          }) }
-        </div>
-      );
-  }
-
   return (
     <div className="react-single-post">
         <h1 className="title">{post.title}</h1>
@@ -37,13 +26,20 @@ const Post = (props) => {
             className="featured-image"
           />
         ))}
-        {post.content}
+         {post.content &&post.content.split('\n').map(function(item, key) {
+        return (
+            <span key={key}>
+            {item}
+            <br/>
+            </span>
+        )
+        })}
     </div>
   );
 };
 
-export default Post;
+export default PostForm;
 
-$('*[data-react-render="post"]').each(function(i, obj) {
+$('*[data-react-render="post-form"]').each(function(i, obj) {
     ReactDOM.render(<Post slug={obj.dataset.slug} />, obj);
 });

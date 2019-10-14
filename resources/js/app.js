@@ -15,4 +15,5 @@ feather.replace()
  */
 
 require('./components/Example');
-require('./components/Post');
+require('./components/Posts/View');
+require('./components/Posts/Form');

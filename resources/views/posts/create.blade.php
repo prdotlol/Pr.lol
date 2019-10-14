@@ -60,7 +60,7 @@
 
                 <div class="form-group">
                     <button type="submit" class="btn btn-primary">
-                        {{ __('Creat Post') }}
+                        {{ __('Publish Post') }}
                     </button>
                 </div>
             </form>
