@@ -26,6 +26,7 @@
         "sass-loader": "7.*"
     },
     "dependencies": {
+        "@shopify/react-form": "^0.3.24",
         "feather-icons": "^4.24.1"
     }
 }

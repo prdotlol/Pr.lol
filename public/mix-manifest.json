@@ -1,4 +1,9 @@
 {
+<<<<<<< HEAD
     "/js/app.js": "/js/app.js?id=a45129002971b29f5c58",
     "/css/app.css": "/css/app.css?id=483865f1f32ce953ca9e"
+=======
+    "/js/app.js": "/js/app.js?id=92bc4f7b8239261c0831",
+    "/css/app.css": "/css/app.css?id=dc3d6880104c44e8b8a2"
+>>>>>>> Add react forms
 }
