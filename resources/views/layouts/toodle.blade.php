@@ -1,6 +1,6 @@
 <toodle>
+    <div class="holder-primary">
         <div class="content">
-
         </div>
 
         <div class="member-featured">
@@ -14,12 +14,17 @@
                 <div>The simplest cloud platform for developers & teams.</div> --}}
             </div>
         </div>
+    </div>
 
+    <div class="holder-secondary">
         <div class="footer">
+            <div class="pitch">
+                Pr.lol (aka Pull Request) is open source, opinionated software you can use to create successful online communities.
+            </div>
             <div class="opensource">
-                <div class="icon-holder"><i class="icon" data-feather="heart"></i></div>
-                <div>Say hello on <a href="http://github.com/Pr-lol">GitHub</a>, Twitter or Right here! <br>
-                We're open source and free forever.</div>
+                <br>Say hello on <a href="http://github.com/Pr-lol">GitHub</a>, Twitter or Right here! <br>
+                We're open source and free forever.
             </div>
         </div>
-    </toodle>
+    </div>
+</toodle>

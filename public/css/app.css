@@ -10936,14 +10936,33 @@ nav .right .user .avatar {
 toodle {
   display: flex;
   flex-wrap: wrap;
+  vertical-align: text-top;
+  align-items: flex-start;
+  min-height: 100vh;
+  width: 400px;
+}
+
+toodle .holder-primary {
+  display: flex;
+  flex-wrap: wrap;
   padding: 20px 30px 20px 30px;
   vertical-align: text-top;
   align-items: flex-start;
-  width: 400px;
+  width: 100%;
+  height: 100%;
   background: #191b22;
   color: #9baec8;
-  min-height: 100vh;
   margin: 5px 0 5px 5px;
+  border-radius: 20px;
+}
+
+toodle .holder-secondary {
+  display: block;
+  padding: 30px 30px 30px 30px;
+  width: 100%;
+  background: #fff;
+  color: #888;
+  margin: 0 0 5px 5px;
   border-radius: 20px;
 }
 
@@ -10989,18 +11008,7 @@ toodle .content-community .item .logo {
   max-height: 35px;
 }
 
-toodle .footer {
-  display: flex;
-  align-self: flex-end;
-  width: 100%;
-  padding: 0 0 20px 0;
-}
-
 toodle .footer .opensource {
-  display: flex;
-  vertical-align: middle;
-  align-items: center;
-  flex-wrap: wrap;
   line-height: 1.4;
   width: 100%;
 }
