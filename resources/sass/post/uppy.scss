@@ -1,0 +1,16 @@
+.post-create{
+    .form{
+        .uppy-DragDrop-container{
+            padding: 20px;
+            background: #fff;
+            border-radius: 0;
+        }
+
+        .uppy-DragDrop--is-dragdrop-supported{
+            border: 1px solid #e2e2e2;
+            border-top: none;
+            border-bottom: none;
+            outline: none;
+        }
+    }
+}

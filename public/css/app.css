@@ -10960,8 +10960,8 @@ toodle .holder-secondary {
   display: block;
   padding: 30px 30px 30px 30px;
   width: 100%;
-  background: #fff;
-  color: #888;
+  background: #B3E0FD;
+  color: #161c2e;
   margin: 0 0 5px 5px;
   border-radius: 20px;
 }
@@ -11190,6 +11190,30 @@ toodle .footer .opensource .icon {
   font-size: 2.6em;
 }
 
+.post-create .form input {
+  margin: 0;
+  outline: none;
+}
+
+.post-create .form .input-title {
+  font-size: 1.2em;
+  display: block;
+  border: 1px solid #ccc;
+  padding: 16px 20px;
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+  border-bottom: none;
+}
+
+.post-create .form .input-type {
+  font-size: 1.2em;
+  display: block;
+  border: 1px solid #ddd;
+  padding: 16px 20px;
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+}
+
 .post-create-tips {
   background: #f3f3f3;
   padding: 30px;
@@ -11218,6 +11242,26 @@ toodle .footer .opensource .icon {
 .post-create-tips ul li {
   padding: 0;
   margin: 0;
+}
+
+.post-create .form .uppy-DragDrop-container {
+  padding: 20px;
+  background: #fff;
+  border-radius: 0;
+}
+
+.post-create .form .uppy-DragDrop--is-dragdrop-supported {
+  border: 1px solid #e2e2e2;
+  border-top: none;
+  border-bottom: none;
+  outline: none;
+}
+
+.post-create .form .DraftEditor-root {
+  border: 1px solid #ddd;
+  padding: 20px;
+  background: #fff;
+  border-radius: 0 0 5px 5px;
 }
 
 .react-single-post .featured-image {

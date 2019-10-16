@@ -1,0 +1,66 @@
+.post{
+
+}
+
+.post-create{
+    .title{
+        font-family: 'Bungee', cursive;
+        font-size: 2.6em;
+    }
+
+    .form{
+        input{
+            margin: 0;
+            outline: none;
+        }
+
+        .input-title{
+            font-size: 1.2em;
+            display: block;
+            border: 1px solid #ccc;
+            padding: 16px 20px;
+            border-radius: 5px 5px 0 0;
+            width: 100%;
+            border-bottom: none;
+        }
+
+        .input-type{
+            font-size: 1.2em;
+            display: block;
+            border: 1px solid #ddd;
+            padding: 16px 20px;
+            border-radius: 5px 5px 0 0;
+            width: 100%;
+        }
+    }
+}
+
+.post-create-tips{
+    background: #f3f3f3;
+    padding: 30px;
+
+    .header{
+        display: flex;
+        vertical-align: middle;
+        align-items: center;
+        margin-bottom: 12px;
+
+        .icon{
+            margin-right: 5px;
+        }
+
+        .sidebar-title{
+            font-weight: 500;
+        }
+    }
+
+    ul{
+        padding: 0 0 0 20px;
+        margin: 0;
+
+        li{
+            padding: 0;
+            margin: 0;
+        }
+    }
+}
