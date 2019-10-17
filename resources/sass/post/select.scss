@@ -1,0 +1,37 @@
+.react-select-custom-option{
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #e2e2e2;
+
+    .left{
+        margin-right: 10px;
+
+        .dot{
+            display: flex;
+            vertical-align: middle;
+            align-items: center;
+            justify-content: center;
+            height: 30px;
+            width: 30px;
+            line-height: 0.95em;
+            border-radius: 10px;
+            color: #fff;
+        }
+    }
+
+    .right{
+        .label{
+            font-weight: bold;
+            line-height: 1;
+            margin-bottom: 5px;
+        }
+
+        .des{
+            font-size: 0.85em;
+            color: #757575;
+            line-height: 1;
+        }
+    }
+}

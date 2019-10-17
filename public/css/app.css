@@ -11195,6 +11195,10 @@ toodle .footer .opensource .icon {
   outline: none;
 }
 
+.post-create .form .input-header {
+  margin-bottom: 20px;
+}
+
 .post-create .form .input-title {
   font-size: 1.2em;
   display: block;
@@ -11247,13 +11251,12 @@ toodle .footer .opensource .icon {
 .post-create .form .uppy-DragDrop-container {
   padding: 20px;
   background: #fff;
-  border-radius: 0;
+  border-radius: 5px;
+  margin-bottom: 20px;
 }
 
 .post-create .form .uppy-DragDrop--is-dragdrop-supported {
-  border: 1px solid #e2e2e2;
-  border-top: none;
-  border-bottom: none;
+  border: 1px solid #ddd;
   outline: none;
 }
 
@@ -11261,7 +11264,43 @@ toodle .footer .opensource .icon {
   border: 1px solid #ddd;
   padding: 20px;
   background: #fff;
-  border-radius: 0 0 5px 5px;
+  border-radius: 5px;
+}
+
+.react-select-custom-option {
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.react-select-custom-option .left {
+  margin-right: 10px;
+}
+
+.react-select-custom-option .left .dot {
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+  line-height: 0.95em;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.react-select-custom-option .right .label {
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+
+.react-select-custom-option .right .des {
+  font-size: 0.85em;
+  color: #757575;
+  line-height: 1;
 }
 
 .react-single-post .featured-image {

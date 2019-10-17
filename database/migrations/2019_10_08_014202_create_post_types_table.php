@@ -17,6 +17,7 @@ class CreatePostTypesTable extends Migration
             $table->bigIncrements('id');
             $table->string('name')->unique();
             $table->string('slug')->unique();
+            $table->string('color');
             $table->string('des');
             $table->integer('user_id');
             $table->boolean('admin_only')->default(0);

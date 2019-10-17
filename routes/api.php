@@ -18,3 +18,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::apiResource('posts', 'API\PostController')->middleware('auth:api');
+Route::apiResource('posttypes', 'API\PostTypeController')->middleware('auth:api');
